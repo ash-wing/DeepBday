@@ -323,13 +323,13 @@ h1::after {
 		align-items: center;
 		margin-top: 10px;
 		height: auto;
-		font-size: 2rem;
+		font-size: 2.5rem;
 		line-height: 3.2rem;
 		word-break: break-word;
 	}
 
 	.wish h1 {
-		font-size: 3rem;
+		font-size: 4rem;
 		letter-spacing: 1px;
 		gap: 10px;
 		margin-bottom: 10px;
@@ -409,8 +409,8 @@ h1::after {
 	}
 
 	.wish {
-		font-size: 2.8rem;
-		line-height: 1rem;
+		font-size: 2rem;
+		line-height: 2.5rem;
 	}
 
 	.wish .us {
@@ -421,25 +421,25 @@ h1::after {
 	}
 
 	.wish h1 {
-		font-size: 2rem;
+		font-size: 3rem;
 		line-height: 3rem;
 		margin-bottom: 8px;
 	}
 
 	.msg h2 {
 		font-size: 0.9rem;
-		line-height: 1.2rem;
+		line-height: 1.3rem;
 	}
 
 	.outer {
-		width: 420px;
+		max-width: 400px;
 		display: flex;
 		justify-content: center;
 		align-items: end;
 	}
 
 	.inner {
-		width: 420px;
+		max-width: 380px;
 	}
 
 	.banner {
@@ -468,54 +468,26 @@ h1::after {
 	}
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
 	.wrapper {
-		transform: scale(0.58);
-	}
-
-	.outer {
-		width: 380px; /* increased from 340px */
-		height: 420px; /* increased for better circle proportion */
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.inner {
-		width: 360px; /* increased from 320px */
-		height: 400px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: 20px;
-		box-sizing: border-box;
-		text-align: center;
-	}
-
-	.msg {
-		width: 85%;
-		font-size: 0.9rem;
-		line-height: 1.4rem;
-		color: #4ca1af;
-		text-align: center;
-		word-break: break-word;
+		transform: scale(0.45);
 	}
 
 	.wish h1 {
-		font-size: 1.8rem;
-		line-height: 2rem;
-		margin-bottom: 5px;
+		font-size: 2.5rem;
+		line-height: 2.7rem;
+		margin-bottom: 6px;
 	}
 
 	.wish .us {
 		display: block;
-		max-width: 75%;
+		max-width: 70%;
 		height: auto;
-		margin-top: 5px;
+		margin-top: 1px;
 	}
 
 	.play-btn {
-		margin: 12px auto 0 auto;
+		margin: 10px auto 0 auto;
 	}
 
 	.audio-container {
