@@ -432,14 +432,14 @@ h1::after {
 	}
 
 	.outer {
-		max-width: 420px;
+		width: 420px;
 		display: flex;
 		justify-content: center;
 		align-items: end;
 	}
 
 	.inner {
-		max-width: 420px;
+		width: 420px;
 	}
 
 	.banner {
