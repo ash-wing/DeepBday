@@ -470,34 +470,52 @@ h1::after {
 
 @media (max-width: 360px) {
 	.wrapper {
-		transform: scale(0.45);
+		transform: scale(0.58);
 	}
 
 	.outer {
-		width: 340px; /* increased from ~400px */
-		height: 390px;
+		width: 380px; /* increased from 340px */
+		height: 420px; /* increased for better circle proportion */
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.inner {
-		width: 320px; /* proportionally increased */
-		height: 350px;
+		width: 360px; /* increased from 320px */
+		height: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 20px;
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+	.msg {
+		width: 85%;
+		font-size: 0.9rem;
+		line-height: 1.4rem;
+		color: #4ca1af;
+		text-align: center;
+		word-break: break-word;
 	}
 
 	.wish h1 {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		line-height: 2rem;
-		margin-bottom: 3px;
+		margin-bottom: 5px;
 	}
 
 	.wish .us {
 		display: block;
-		max-width: 70%;
+		max-width: 75%;
 		height: auto;
-		margin-top: 1px;
+		margin-top: 5px;
 	}
 
 	.play-btn {
-		margin: 10px auto 0 auto;
+		margin: 12px auto 0 auto;
 	}
 
 	.audio-container {
