@@ -432,14 +432,14 @@ h1::after {
 	}
 
 	.outer {
-		max-width: 400px;
+		max-width: 420px;
 		display: flex;
 		justify-content: center;
 		align-items: end;
 	}
 
 	.inner {
-		max-width: 380px;
+		max-width: 400px;
 	}
 
 	.banner {
@@ -493,6 +493,16 @@ h1::after {
 	.audio-container {
 		margin: 1px auto 0 auto;
 		text-align: center;
+	}
+	.outer {
+		max-width: 410px;
+		display: flex;
+		justify-content: center;
+		align-items: end;
+	}
+
+	.inner {
+		max-width: 410px;
 	}
 }
 
