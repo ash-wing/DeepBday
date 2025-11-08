@@ -23,7 +23,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	font-family: "Comic Sans MS", cursive;
+	font-family: "Courier New", Courier, monospace;
 	font-size: 15px;
 	box-shadow: 0 0 15px rgba(255, 105, 180, 0.6);
 	padding: 15px;
