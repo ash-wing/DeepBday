@@ -409,8 +409,8 @@ h1::after {
 	}
 
 	.wish {
-		font-size: 2.5rem;
-		line-height: 2rem;
+		font-size: 2.8rem;
+		line-height: 1rem;
 	}
 
 	.wish .us {
@@ -428,7 +428,7 @@ h1::after {
 
 	.msg h2 {
 		font-size: 0.9rem;
-		line-height: 1.3rem;
+		line-height: 1.2rem;
 	}
 
 	.outer {
@@ -439,7 +439,7 @@ h1::after {
 	}
 
 	.inner {
-		max-width: 380px;
+		max-width: 400px;
 	}
 
 	.banner {
