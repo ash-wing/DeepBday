@@ -1,0 +1,43 @@
+body {
+	background-color: black;
+	margin: 0;
+	height: 100vh;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding-bottom: 20px;
+}
+
+.page2-button {
+	border: none;
+	padding: 1.5rem 3rem;
+	border-radius: 2.5rem;
+	font-size: x-large;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400;
+	background-color: #16181c;
+	color: white;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.page2-button::after {
+	content: "";
+	position: absolute;
+	height: 107%;
+	width: 102%;
+	border-radius: 2.5rem;
+	background-image: linear-gradient(to bottom right, #008cff, #e100ff);
+	z-index: -1;
+}
+
+.page2-button:hover {
+	z-index: 0;
+	box-shadow: 40px 0 100px #008cff78, -40px 0 100px #e100ff7c;
+}

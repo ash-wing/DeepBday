@@ -1,0 +1,283 @@
+/* body {
+	background-color: black;
+} */
+
+/* .page-one {
+	display: none;
+} */
+
+.cbg {
+	/* color: #e6d2c6; */
+	/* background-color: #e6d2c6; */
+	width: 40%;
+	height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.shirt {
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	margin-top: auto;
+	width: 40%;
+	left: 30%;
+	height: 250px;
+	background-color: #6e7cad;
+}
+
+.upper {
+	flex-basis: 40%;
+	background-color: #2e329b;
+}
+
+/* .upper {
+	position: absolute;
+	bottom: 0px;
+	display: flex;
+	margin-top: auto;
+	width: 40%;
+	left: 30%;
+	height: 250px;
+	background-color: #babcf1;
+} */
+
+.lower {
+	flex-basis: 60%;
+	/* background-color: #551a25; */
+	display: flex;
+}
+
+.shirt-left,
+.shirt-right {
+	flex-basis: 42.5%;
+	/* background-color: #545572; */
+}
+
+.shirt-middle {
+	flex-basis: 15%;
+	background-color: #25252f;
+}
+.shirt-left {
+	position: relative;
+}
+
+.sle-1,
+.sle-2,
+.sle-3,
+.sle-4,
+.sle-5,
+.sle-6,
+.sle-7,
+.sle-8,
+.sle-9,
+.sle-10,
+.sle-11,
+.sle-12,
+.sle-13,
+.sle-14,
+.sle-15 {
+	position: absolute;
+	bottom: 0px;
+	width: 0;
+	height: 0;
+}
+
+.sle-1 {
+	border-left: 10px solid transparent;
+	border-right: 220px solid transparent;
+	border-bottom: 150px solid #595c7e62;
+}
+
+.sle-2 {
+	border-left: 80px solid transparent;
+	border-right: 220px solid transparent;
+	border-bottom: 100px solid #595c7e7a;
+}
+
+.sle-3 {
+	border-left: 10px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 80px solid #444561e3;
+}
+
+.sle-4 {
+	border-left: 220px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 150px solid #717696;
+}
+
+.sle-5 {
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 150px solid #555a7f81;
+}
+
+.sle-6 {
+	border-left: 230px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 100px solid #3d4b76a9;
+}
+
+.sle-7 {
+	border-left: 230px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 50px solid #3d4b76;
+}
+
+.sle-8 {
+	border-left: 10px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 80px solid #444561e3;
+}
+
+.sle-9 {
+	border-left: 10px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 80px solid #444561e3;
+}
+
+.sle-10 {
+	border-left: 5px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 45px solid #2d313e;
+}
+
+.sle-11 {
+	left: 40px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid #2d313e90;
+}
+
+.sle-12 {
+	left: 120px;
+	border-left: 50px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 30px solid #2d313e;
+}
+
+.sle-13 {
+	left: 180px;
+	border-left: 65px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 60px solid #7885b4ab;
+}
+
+/* mirrored right-side shapes: sre-* */
+.shirt-right {
+	position: relative;
+}
+
+.sre-1,
+.sre-2,
+.sre-3,
+.sre-4,
+.sre-5,
+.sre-6,
+.sre-7,
+.sre-8,
+.sre-9,
+.sre-10,
+.sre-11,
+.sre-12,
+.sre-13 {
+	position: absolute;
+	bottom: 0px;
+	width: 0;
+	height: 0;
+}
+
+/* Mirror of sle-1: flip horizontal by swapping left/right values */
+.sre-1 {
+	border-right: 10px solid transparent;
+	border-left: 220px solid transparent;
+	border-bottom: 150px solid #595c7e62;
+	right: 0px;
+}
+
+.sre-2 {
+	border-right: 80px solid transparent;
+	border-left: 220px solid transparent;
+	border-bottom: 100px solid #595c7e7a;
+	right: 0px;
+}
+
+.sre-3 {
+	border-right: 10px solid transparent;
+	border-left: 120px solid transparent;
+	border-bottom: 80px solid #444561e3;
+	right: 0px;
+}
+
+.sre-4 {
+	border-right: 220px solid transparent;
+	border-left: 30px solid transparent;
+	border-bottom: 150px solid #717696;
+	right: 0px;
+}
+
+.sre-5 {
+	border-right: 120px solid transparent;
+	border-left: 120px solid transparent;
+	border-bottom: 150px solid #555a7f81;
+	right: 0px;
+}
+
+.sre-6 {
+	border-right: 230px solid transparent;
+	border-left: 20px solid transparent;
+	border-bottom: 100px solid #3d4b76a9;
+	right: 0px;
+}
+
+.sre-7 {
+	border-right: 230px solid transparent;
+	border-left: 120px solid transparent;
+	border-bottom: 50px solid #3d4b76;
+	right: 0px;
+}
+
+.sre-8 {
+	border-right: 10px solid transparent;
+	border-left: 120px solid transparent;
+	border-bottom: 80px solid #444561e3;
+	right: 0px;
+}
+
+.sre-9 {
+	border-right: 10px solid transparent;
+	border-left: 120px solid transparent;
+	border-bottom: 80px solid #444561e3;
+	right: 0px;
+}
+
+.sre-10 {
+	border-right: 5px solid transparent;
+	border-left: 80px solid transparent;
+	border-bottom: 45px solid #2d313e;
+	right: 0px;
+}
+
+.sre-11 {
+	right: 40px;
+	border-right: 50px solid transparent;
+	border-left: 50px solid transparent;
+	border-bottom: 25px solid #2d313e90;
+}
+
+.sre-12 {
+	right: 120px;
+	border-right: 50px solid transparent;
+	border-left: 25px solid transparent;
+	border-bottom: 30px solid #2d313e;
+}
+
+.sre-13 {
+	right: 180px;
+	border-right: 65px solid transparent;
+	border-left: 12px solid transparent;
+	border-bottom: 60px solid #7885b4ab;
+}
