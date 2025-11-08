@@ -474,12 +474,12 @@ h1::after {
 	}
 
 	.outer {
-		width: 330px; /* increased from ~400px */
+		width: 340px; /* increased from ~400px */
 		height: 390px;
 	}
 
 	.inner {
-		width: 310px; /* proportionally increased */
+		width: 320px; /* proportionally increased */
 		height: 390px;
 	}
 
