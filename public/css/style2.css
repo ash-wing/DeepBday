@@ -94,6 +94,7 @@ body {
 
 /* Play Button */
 .play-btn {
+	position: relative;
 	display: block;
 	margin: -10px auto 0 auto; /* lifted up slightly */
 	background-color: #ff69b4;
@@ -105,7 +106,7 @@ body {
 	cursor: pointer;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 	transition: all 0.3s ease;
-	z-index: 9999;
+	z-index: 99;
 	text-align: center;
 	animation: btnFloat 4s ease-in-out infinite; /* Floating effect */
 }
@@ -155,6 +156,7 @@ body {
 	align-items: end;
 	position: relative;
 	animation: btnFloat 3s ease-in-out infinite; /* Floating effect */
+	z-index: 10;
 }
 
 .inner {
@@ -169,6 +171,7 @@ body {
 	position: relative;
 	padding: 40px;
 	box-sizing: border-box;
+	z-index: 10;
 }
 
 /* Banner */
@@ -252,12 +255,12 @@ h1::after {
 	position: absolute;
 	bottom: -60px;
 	left: 50%;
-	width: 3px;
+	width: 1px;
 	height: 60px;
 	transform: translateX(-50%);
-	border-left: 2px solid rgba(0, 0, 0, 0.4);
-	border-radius: 50%;
-	animation: wave 1s ease-in-out infinite alternate;
+	background-color: rgba(222, 239, 205, 0.98);
+	border-radius: 2px;
+	animation: wave 2s ease-in-out infinite alternate;
 }
 
 /* Tail Wave Animation */
@@ -277,8 +280,8 @@ h1::after {
 		opacity: 1;
 	}
 	100% {
-		transform: translateY(-110vh) scale(1.2);
-		opacity: 0;
+		transform: translateY(-190vh) scale(1.2);
+		opacity: 1;
 	}
 }
 
