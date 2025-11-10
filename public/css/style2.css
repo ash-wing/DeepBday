@@ -10,6 +10,7 @@ body {
 	position: relative;
 }
 
+/* Mother Div */
 .mother-div {
 	position: absolute;
 	bottom: 60px;
@@ -94,7 +95,7 @@ body {
 /* Play Button */
 .play-btn {
 	display: block;
-	margin: 20px auto 0 auto;
+	margin: -10px auto 0 auto; /* lifted up slightly */
 	background-color: #ff69b4;
 	color: white;
 	border: none;
@@ -117,7 +118,7 @@ body {
 /* Audio Container */
 .audio-container {
 	text-align: center;
-	margin-top: 400px;
+	margin-top: 250px; /* moved up from 400px */
 	margin-right: 300px;
 }
 
@@ -395,12 +396,12 @@ h1::after {
 
 	.play-btn {
 		display: block;
-		margin: 20px auto 0 auto;
+		margin: -5px auto 0 auto;
 		max-width: 250px;
 	}
 
 	.audio-container {
-		margin: 10px auto 0 auto;
+		margin: 180px auto 0 auto;
 		text-align: center;
 	}
 }
@@ -461,11 +462,11 @@ h1::after {
 	}
 
 	.play-btn {
-		margin: 15px auto 0 auto;
+		margin: -10px auto 0 auto;
 	}
 
 	.audio-container {
-		margin: 1px auto 0 auto;
+		margin: 120px auto 0 auto;
 		text-align: center;
 	}
 }
@@ -489,13 +490,14 @@ h1::after {
 	}
 
 	.play-btn {
-		margin: 10px auto 0 auto;
+		margin: -80px 0px 0 auto;
 	}
 
 	.audio-container {
-		margin: 1px auto 0 auto;
+		margin: 100px auto 0 auto;
 		text-align: center;
 	}
+
 	.outer {
 		max-width: 410px;
 		display: flex;
