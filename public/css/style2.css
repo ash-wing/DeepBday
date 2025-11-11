@@ -289,8 +289,8 @@ h1::after {
 .sparkle {
 	position: absolute;
 	top: -10px;
-	width: 20px;
-	height: 20px; /* small confetti piece */
+	width: 15px;
+	height: 15px; /* small confetti piece */
 	border-radius: 50%;
 	opacity: 0.9;
 	border-radius: 2px; /* not fully round—like a paper piece */
