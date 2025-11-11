@@ -13,6 +13,9 @@ const colors = [
 	"#DDA0DD", // Medium Orchid
 ];
 
+// Generate sparkles continuously
+setInterval(createSparkle, 250); // slower creation rate for natural effect
+
 function createBalloon() {
 	const balloon = document.createElement("div");
 	balloon.classList.add("balloon");
